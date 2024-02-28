@@ -120,7 +120,7 @@ export default function WaitListForm() {
         </p>
         <div className="mt-5">
           <p className="text-sm md:text-md  font-semibold text-slate-500 ">
-            Exoplate is not just a marketplace; it's a revolution in art display. Transforming every brushstroke into a stunning piece of metal art, we invite you to join a community where artists flourish and collectors find unique treasures. Whether you're looking to showcase your artwork or to bring an artist's vision into your space, Exoplate is the canvas for the future.
+            Exoplate is not just a marketplace; it&apos;s a revolution in art display. Transforming every brushstroke into a stunning piece of metal art, we invite you to join a community where artists flourish and collectors find unique treasures. Whether you&apos;re looking to showcase your artwork or to bring an artist&apos;s vision into your space, Exoplate is the canvas for the future.
           </p>
         </div>
       </div>
@@ -256,7 +256,7 @@ export default function WaitListForm() {
             <DialogHeader>
               <DialogTitle>Welcome to the Club!</DialogTitle>
               <DialogDescription>
-                Thank you for joining our mailing list. We're excited to have you with us and look forward to keeping you updated with the latest news and offers from Exoplate.
+                Thank you for joining our mailing list. We&apos;re excited to have you with us and look forward to keeping you updated with the latest news and offers from Exoplate.
               </DialogDescription>
             </DialogHeader>
             <Button onClick={() => setThankYouDialogOpen(false)}>Close</Button>
