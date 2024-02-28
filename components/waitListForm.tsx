@@ -218,19 +218,19 @@ export default function WaitListForm() {
                             </div>
                             <RadioGroup defaultValue={behaviour} onValueChange={setbehaviour}>
                               <div className="flex items-center space-x-2">
-                                <RadioGroupItem value="preference-option1" id="preference-option1" />
+                                <RadioGroupItem value="preference-option1" id="behaviour-option1" />
                                 <Label htmlFor="preference-option1"> Buy curated art pieces</Label>
                               </div>
                               <div className="flex items-center space-x-2">
-                                <RadioGroupItem value="preference-option2" id="preference-option2" />
+                                <RadioGroupItem value="preference-option2" id="behaviour-option2" />
                                 <Label htmlFor="preference-option2">Sell your own artwork</Label>
                               </div>
                               <div className="flex items-center space-x-2">
-                                <RadioGroupItem value="preference-option3" id="preference-option3" />
+                                <RadioGroupItem value="preference-option3" id="behaviour-option3" />
                                 <Label htmlFor="preference-option3">Upload your own artwork to purchase custom metal posters.</Label>
                               </div>
                               <div className="flex items-center space-x-2">
-                                <RadioGroupItem value="preference-option4" id="preference-option4" />
+                                <RadioGroupItem value="preference-option4" id="behaviour-option4" />
                                 <Label htmlFor="preference-option4">Both buy and sell curated art works</Label>
                               </div>
                             </RadioGroup>
